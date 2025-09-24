@@ -43,22 +43,20 @@ public class Veiculo{
     public void setFabricante(Fabricante fabricante) {
         this.fabricante = fabricante;
     }
-    public void getImprimirVeiculo() {
-        return imprimirVeiculo;
-    }
-    public void setImprimirVeiculo(void imprimirVeiculo) {
-        this.imprimirVeiculo = imprimirVeiculo;
-    }
     
     
-        public void imprimirVeiculo{
-            system.out.println("---Veiculo---");
-            system.out.println("Nome: " + getNome());
-            system.out.println("ID: " + getId);
-            system.out.println("Modelo: " + getModelo());
-            system.out.println("Nome: " + getNome());
-            system.out.println ("Placa: " + getPlaca());
-            system.out.println ("Fabricante: " +);
-
+    
+        public void imprimirVeiculo(){
+            System.out.println("---Veiculo---");
+            System.out.println("Nome: " + getNome());
+            System.out.println("ID: " + getId());
+            System.out.println("Modelo: " + getModelo());
+            System.out.println("Nome: " + getNome());
+            System.out.println ("Placa: " + getPlaca());
+            System.out.println ("/n ---Fabricante--- /nNome:" + getFabricante.getNome());
+            System.out.println("Ano: " + getFabricante.getAno());
+            System.out.println ("Cidade: " + getFabricante.getCidade());
+            System.out.println("CNPJ: " + getFabricante.getCnpj());
+            
         }
 }

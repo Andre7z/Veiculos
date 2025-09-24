@@ -17,7 +17,8 @@ public class App {
         carro1.setPlaca("ABC0102");
         carro1.setFabricante (fab1);
         
-        imprimirVeiculo( carro1 );
+        carro1.imprimirVeiculo();
+        
 
 
 
