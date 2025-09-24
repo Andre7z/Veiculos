@@ -3,6 +3,15 @@ public class Fabricante {
     private String nome;
     private String cnpj;
     private String cidade;
+
+    Fabricante(){}
+
+    Fabricante(int id, String nome, String cnpj, String cidade){
+        this.id = id;
+        this.nome = nome;
+        this.cnpj = cnpj;
+        this.cidade = cidade;
+    }
     
     public int getId() {
         return id;

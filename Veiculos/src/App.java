@@ -7,18 +7,11 @@ public class App {
         fab1.setId(01);
         fab1.setNome ("Honda");
 
+        // Usando o construtor cheio
+        Veiculo carro1 = new Veiculo(01, "ABC0102", "Polo", 2015, 2015, fab1);
 
-        
-        
-        Veiculo carro1 = new Veiculo();
-        carro1.setId(01);
-        carro1.setAno(2015);
-        carro1.setModelo(2015);
-        carro1.setNome("Polo");
-        carro1.setPlaca("ABC0102");
-        carro1.setFabricante (fab1);
-        
         carro1.imprimirVeiculo();
+
         
         Veiculo carro2 = new Veiculo();
         carro2.setId(02);

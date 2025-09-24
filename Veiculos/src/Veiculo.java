@@ -7,6 +7,21 @@ public class Veiculo{
     private int modelo;
     private Fabricante fabricante;
 
+    // construtor vazio
+    Veiculo (){}
+
+    // construtor cheio
+    Veiculo (int id, String placa, String nome, int ano, int modelo, Fabricante fabricante){
+        this.id = id;
+        this.placa = placa;
+        this.nome = nome;
+        this.ano = ano;
+        this.modelo = modelo;
+        this.fabricante = fabricante;
+    }
+
+    
+
     public int getId() {
         return id;
     }
@@ -60,4 +75,4 @@ public class Veiculo{
             System.out.println("--------------");
             
         }
-}
+} 
