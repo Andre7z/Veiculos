@@ -53,10 +53,11 @@ public class Veiculo{
             System.out.println("Modelo: " + getModelo());
             System.out.println("Nome: " + getNome());
             System.out.println ("Placa: " + getPlaca());
-            System.out.println ("/n ---Fabricante--- /nNome:" + getFabricante.getNome());
-            System.out.println("Ano: " + getFabricante.getAno());
-            System.out.println ("Cidade: " + getFabricante.getCidade());
-            System.out.println("CNPJ: " + getFabricante.getCnpj());
+            System.out.println ("\n ---Fabricante--- \nNome:" + getFabricante().getNome());
+            System.out.println ("Cidade: " + getFabricante().getCidade());
+            System.out.println("CNPJ: " + getFabricante().getCnpj());
+            System.out.println("ID: " + getFabricante().getId());
+            System.out.println("--------------");
             
         }
 }

@@ -7,6 +7,7 @@ public class App {
         fab1.setId(01);
         fab1.setNome ("Honda");
 
+
         
         
         Veiculo carro1 = new Veiculo();
@@ -19,8 +20,15 @@ public class App {
         
         carro1.imprimirVeiculo();
         
+        Veiculo carro2 = new Veiculo();
+        carro2.setId(02);
+        carro2.setAno(2018);
+        carro2.setModelo(2018);
+        carro2.setNome("Civic");
+        carro2.setPlaca("DEF1234");
+        carro2.setFabricante(fab1);
 
-
+        carro2.imprimirVeiculo();
 
     }
 }
